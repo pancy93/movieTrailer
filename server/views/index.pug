@@ -1,0 +1,16 @@
+extends layout.pug
+
+block content
+    .container
+        .sidebar
+            ul.links
+                li#link1 link1
+        .context
+            .card
+                img.cardTopIMG(src='',data-video='')
+                .cardBody
+                    h4.cardTitle title
+                    p.cardDesc description
+                .cardFooter
+                    .update 1 day ago
+    script(src='./index.js')
